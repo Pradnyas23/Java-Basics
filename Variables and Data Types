@@ -1,0 +1,64 @@
+# PATTERN PRINITING
+public class basic {
+    public static void main(String args[]){
+        System.out.println("* * * * *");
+        System.out.println("* * * *");
+        System.out.println("* * *");
+        System.out.println("* *");
+    }
+}
+
+# Variables in java
+public class basic {
+    public static void main(String args[]){
+        int a = 3;
+        int b = 4;
+        System.out.println(a);
+        System.out.println(b);
+        String name ="Pradnya Sutar";    /**Always write string data type with capital word at first. */
+        System.out.println(name);
+
+        a = 50;   /** Here you can even change the value for a variable but dont include data type while changing. */
+        System.out.println(a);
+
+        /** We can assign one variable value to another */
+        a = b;             /**Here b value i.e 4 jumps and goes to a. */
+        System.out.println(a);
+    }
+}
+
+#Java is a typed lanuage where you need to tell the type of data while creating variable.
+
+//Data Types in java
+//Primitive data types
+public class basic {
+    public static void main(String args[]){
+        byte b = 8;  //here only 256  values can be added to byte type
+        System.out.println(b);
+        char ch = 'a';  //Here all characters can be stored. we cannot take two characters at same time.ex.'ab'
+        System.out.println(ch);
+        boolean var = false;
+        System.out.println(var);
+        double pen = 10.5;
+        System.out.println(pen);
+        int no = 2;
+        //long type: If we want to add big integer no then we can use integer data type.
+        //double type: If we want to add big float numbers
+        short n = 20;
+    }
+}
+
+//Sum of a & b:
+public class basic {
+    public static void main(String args[]){
+        //Code to calculate sum
+        int a = 20;
+        int b = 30;
+        int sum = a+b;
+        System.out.println(sum);
+    }
+}
+
+
+
+
