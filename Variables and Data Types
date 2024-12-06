@@ -105,6 +105,33 @@ public class basic {
     }
 }
 
+//Type casting of float to int
+import java.util.*;
+public class basic {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        float a = 20.3f;
+        int b = (int)a;     // In the output only 20 is shown and decimal part is removed.
+        System.out.println(b);
+
+    }
+}
+
+//Char to Int Conversion
+
+import java.util.*;
+public class basic {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        char a = 'a';
+        int b = a ;     // In the output integer value is shown as in java we can convert char to int.
+        System.out.println(b);  //Similarly if you write 'b','c' then the value goes on.
+
+    }
+}
+
+
+
 
 
 
