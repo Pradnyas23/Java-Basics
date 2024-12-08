@@ -1,0 +1,87 @@
+//Opeartor
+//Binary operators.
+//+ operator
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 20;
+        System.out.println("Addition of 'a' and 'b' ="+ (a+b)); //you must use + between two sentences.
+    }
+}
+
+//- Operator
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 20;
+        System.out.println("Subtraction of 'a' and 'b' ="+ (a-b)); //you must use + between two sentences.
+    }
+}
+
+//* Opeartor
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 20;
+        System.out.println("Multiplication ="+ (a*b)); //you must use + between two sentences.
+    }
+}
+
+// / Operator
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 20;
+        System.out.println("Division ="+ (a/b)); //you must use + between two sentences.
+    }
+}
+
+// % Operator
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 20;
+        System.out.println("Modulo(Remainder) ="+ (a%b)); //you must use + between two sentences.
+    }
+}
+
+//Unary Operators
+//Pre increment 
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = ++a;
+        System.out.println(a); 
+        System.out.println(b);
+    }
+}
+
+//Post Increment
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = a++;
+        System.out.println(a); 
+        System.out.println(b);
+    }
+}
+
+//pre decrement (similar to pre increment)
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = --a;
+        System.out.println(a); 
+        System.out.println(b);
+    }
+}
+
+//post decrement (Similar to post increment)
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = a--;
+        System.out.println(a); 
+        System.out.println(b);
+    }
+}
