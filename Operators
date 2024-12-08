@@ -85,3 +85,39 @@ public class basic{
         System.out.println(b);
     }
 }
+
+//Relational Operator
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 23;
+        System.out.println(a==b);  //Here true is returned
+    }
+}
+
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 22;
+        System.out.println(a!=b);  //here result will be true as a is not equal to b
+    }
+}
+
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 22;
+        System.out.println(a<b);   //here output will be false
+    }
+}
+
+
+public class basic{
+    public static void main(String args[]){
+        int a = 23;
+        int b = 23;
+        System.out.println(a<=b);  //here output will be true as both are equal
+    }
+}
+
+
