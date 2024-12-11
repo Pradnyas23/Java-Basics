@@ -1,0 +1,56 @@
+//If-Else statements
+public class abc {
+    public static void main(String[] args){
+        int age = 22;
+        if(age>=18){
+            System.out.println("Adult:can drive,vote");
+        }
+        else{
+            System.out.println("not adult");     //Output will be adult
+        }
+    }
+}
+
+public class abc {
+    public static void main(String[] args){
+        int age = 12;
+        if(age>=18){
+            System.out.println("Adult:can drive,vote");
+        }
+        else{
+            System.out.println("not adult");
+        }
+    }
+}                                                  //Output will be not adult
+
+public class abc {
+    public static void main(String[] args){
+        int age = 14;
+        if(age>=18){
+            System.out.println("Adult:can drive,vote");
+        }
+        if(age>13 && age<18){
+            System.out.println("Teenager");
+        }
+        else{
+            System.out.println("not adult");            //Output will be teenager
+        }
+    }
+}
+
+//Find the largest no of two numbers;
+public class abc {
+    public static void main(String[] args){
+        int a = 20;
+        int b = 10;
+        if(a>b){
+            System.out.println(a);
+        }
+        else{
+            System.out.println(b);
+        }
+    }
+}
+
+
+
