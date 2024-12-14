@@ -1,0 +1,49 @@
+//While Loop
+public class basicg {
+    public static void main(String args[]){
+        int counter = 0;
+        while(counter<100){
+            System.out.println("Hello World");
+            counter++;
+        }
+        System.out.println("printed hw 100 times");
+    }
+}
+
+//print 1 to 10
+public class basicg {
+    public static void main(String args[]){
+        int num = 1;
+        while(num<=10){
+            System.out.println(num);
+            num++;
+        }
+    }
+}
+
+public class basicg {
+    public static void main(String args[]){
+        int num = 1;
+        while(num<=10){
+            System.out.print(num+" ");
+            num++;
+        }
+        //System.out.println();                               //If we want all 1 to 10 to print in one line then we can write code like this.
+    }
+}
+
+//Print no from 1 to n
+import java.util.*;
+public class basicg {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int counter = 1;
+        while(counter<n){
+            System.out.println(counter);
+            counter++;
+        }
+    }
+}
+
+
