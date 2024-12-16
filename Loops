@@ -107,3 +107,93 @@ public class basicg {
     }
 }
 
+//Reverse of a number
+public class basicg{
+    public static void main(String agrs[]){
+        int n = 233;
+        while(n>0){
+            int ldg = n % 10;
+            System.out.print(ldg);
+            n = n / 10;
+            
+        }
+        System.out.println();
+    }
+}
+
+//Do while loop
+public class basicg{
+    public static void main(String agrs[]){
+        int n = 1;
+        do{
+            System.out.println("Hello world");
+            n++;
+        }while(n<=10);
+    }
+}
+
+//Break statement
+public class basicg{
+    public static void main(String agrs[]){
+        for(int i = 1;i<=10;i++){
+            if(i==3){
+                break;
+            }
+            System.out.println(i);
+        }
+
+        System.out.println("I am out of loop");
+        
+    }
+}
+
+//Keep entering numbers till user enters a number multiple of 10
+import java.util.*;
+public class basicg{
+    public static void main(String agrs[]){
+        Scanner sc = new Scanner(System.in);
+
+        do{
+            int n = sc.nextInt();
+            System.out.println(n);                  //Once user enters multiple of 10 then the loop gets exited.
+            if(n % 10 ==0){
+                break;
+            }
+        }while(true);   
+    }
+}
+
+//Continue statement
+import java.util.*;
+public class basicg{
+    public static void main(String agrs[]){
+        for(int i =1;i<=5;i++){
+            if(i==3){
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+//Display all numbers entered by user except multiples of 10
+import java.util.*;
+public class basicg{
+    public static void main(String agrs[]){
+        Scanner sc = new Scanner(System.in);
+        
+      do{
+            int i = sc.nextInt();
+            if(i%10==0){
+                continue;
+            }
+            System.out.println(i);
+
+        }while(true);
+    }
+}
+
+
+
+
+
