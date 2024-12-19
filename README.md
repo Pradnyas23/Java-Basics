@@ -1,1 +1,1 @@
-This Repository includes all the code from each important topic in Java. 
+This Repository includes all the basic codes written in java.
